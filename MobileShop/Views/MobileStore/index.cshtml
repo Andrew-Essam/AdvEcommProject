@@ -1,0 +1,702 @@
+﻿
+@{
+    ViewData["Title"] = "Mobile Store";
+}
+
+
+@section Style
+    {
+    <link href="@Url.Content("https://fonts.googleapis.com/css?family=Poppins")" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/all.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/bootstrap.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/index_style.css")" />
+    <link rel="stylesheet" href="@Url.Content("https://use.fontawesome.com/releases/v5.5.0/css/all.css")" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+}
+
+<!--**************************************************-->
+<!-- Bootstrap Navigation Bar -->
+<!--**************************************************-->
+<nav class="navbar fixed-top navbar-expand-md bg-dark py-0 px-5">
+    <!-- border-bottom border-dark-->
+    <div class="container-fluid mx-auto px-5 py-2">
+
+        <img src="~/images/logo.png" height="70" /> &nbsp
+        <a href="#section1" id="logo" class="navbar-brand text-uppercase text-white">Mobile Shop</a>
+
+        <button class="navbar-toggler bg-danger pt-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light font-weight-bold">| | |</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul id="navigation" class="navbar-nav text-center ml-auto">
+
+                <li class="nav-item text-uppercase active">
+                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item text-uppercase">
+                    <a class="nav-link text-white" href="#Services">About</a>
+                </li>
+
+                <li class="nav-item text-uppercase">
+                    <a class="nav-link text-white" href="#Portfolio">Work</a>
+                </li>
+
+                <li class="nav-item text-uppercase">
+                    <a class="nav-link text-white" href="#Projects">Portfolio</a>
+                </li>
+
+                <li class="nav-item text-uppercase">
+                    <a class="nav-link text-white" href="#Contact">Hire Me</a>
+                </li>
+                
+                <li class="nav-item dropdown text-uppercase">
+                    <a class="nav-link dropdown-toggle bg-secondary rounded p-3 mt-4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Admin
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" asp-controller="Categories" asp-action="index">Category</a>
+                        <a class="dropdown-item"  asp-controller="Products" asp-action="index">Products</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"  asp-controller="Customers" asp-action="index">Customers</a>
+                    </div>
+                </li>
+
+                <li class="nav-item text-uppercase">
+                    <a class="nav-link text-white" href="#SignUp">Sign up</a>
+                </li>
+                <li class="nav-item text-uppercase  ">
+                    @*<i class="fas fa-shopping-cart text-danger fa-2x "></i>*@
+                    <a class="nav-link text-white  " asp-controller="MobileStore" asp-action="shoppingcart">Add to Cart</a>
+
+                </li>
+
+                <li class="nav-item text-uppercase  ">
+                    <a class="nav-link text-white " href="#Signin" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div><!--end container-->
+</nav>
+
+<!--**************************************************-->
+<!-- Header -->
+<!--**************************************************-->
+<header class="w-100">
+    <div class="container mt-5 pt-5 pb-5">
+
+        <h1 class="text-uppercase text-white mt-5 pt-5">Mobile -Friendly Website</h1>
+        <h3 class="text-white">Check our Stores all over the World</h3>
+
+        <a href="#" id="header_button" class="text-uppercase text-white border border-white mt-5 mb-5">Know More >></a>
+
+        <a href="#About" id="arrow" class=" mt-5 nb-5 d-block text-center w-25 m-auto">
+            <i class="fa fa-angle-down fa-4x text-white"></i>
+        </a>
+
+    </div>
+</header>
+
+<!--**************************************************-->
+<!-- About -->
+<!--**************************************************-->
+
+<section id="section0" class="w-100 bg-white">
+    <div id="About" class="container mt-5 pt-5 pb-5">
+
+        <div class="row">
+
+            <div class="section_title col-12">
+                <h2 class="text-uppercase">Innovation of Phone Technology: Taking a Look Back (Infographic)</h2>
+                <p class="text-secondary">
+                    Communication has vastly changed in the course of human history from smoke signals to carrier pigeons, Morse code to the first invention of the phone in 1876 by Alexander Graham.
+
+                    Since then, technology of the phone itself has changed from the popular candlestick of the 1890’s, to the classic rotary phone and later to the push button phone of the 1960’s.
+
+                    Other advancements that were added to enhance the phone have further changed the way we communicate such as the first answering machine, caller ID and, let’s not forget, cell phones.
+
+                    Today in the 21st century, communication has never been more accessible or easily compared to any other time in human history. We have many options to communicate with loved ones who are halfway around
+                    the world from instant chat, social media, video calls, etc. Given the many options people can communicate with each other and now with the advancement of smartphone technology, customers can contact you in so many ways.
+
+                    Check out how MightyCall virtual phone system can bring the different ways customers can contact you in one easy place!
+                </p>
+            </div>
+
+
+            <div class="col-md-5 col-sm-5 col-xs-12 mb-5">
+                <img class="img-fluid" src="~/Images/smartphones.jpg" style="height:300px" />
+            </div>
+
+            <div class="profile_title col-md-7 col-sm-7 col-xs-12 mb-5">
+                <h2 class="">Our Smart Phones</h2>
+                <h4 class="">The world's best smartphones</h4>
+
+                <p class="text-secondary">
+                    Enjoy unlimited photo storage, regular security updates & 2 years of OS updates. Durable.
+                    Android Security. Elegant. Reliable. Built To Last. Holdbar. Long Battery Life
+                </p>
+
+                <div class="social">
+                    <a href="#" class="border"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="border"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="border"><i class="fab fa-google-plus"></i></a>
+                    <a href="#" class="border"><i class="fab fa-github"></i></a>
+                    <a href="#" class="border"><i class="fab fa-behance"></i></a>
+                    <a href="#" class="border"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+
+            <div class="profile_title col-md-6 col-sm-6 col-xs-12 mt-5">
+                <h2 class="">Milestones & Achievements</h2>
+
+                <p class="text-secondary">
+                    Historical milestones and a variety of achievements characterize our company’s journey
+                    : from a merchant’s company selling one product to the global player we are today. Throughout the decades,
+                    we have seen many product launches, a steady flow of innovations, and continuous expansions through organic growth
+                    and acquisitions. During this time, the Henkel family and thousands of employees all over the world
+                    have contributed to our success, which is marked by numerous awards and excellent third-party rankings.
+                </p>
+            </div>
+
+            <div class="progress_wrap col-md-6 col-sm-6 col-xs-12 mt-5">
+                <h4>Sales Progress in the last 4 years</h4>
+                <span class="text-uppercase text-secondary">2015</span>
+                <div class="progress rounded">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 79%" aria-valuenow="71" aria-valuemin="79" aria-valuemax="100">71%</div>
+                </div>
+                <br />
+                <span class="text-uppercase text-secondary">2016</span>
+                <div class="progress rounded">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 81%" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">81%</div>
+                </div>
+                <br />
+                <span class="text-uppercase text-secondary">2017</span>
+                <div class="progress rounded">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 88.5%" aria-valuenow="88.5" aria-valuemin="0" aria-valuemax="100">88.5%</div>
+                </div>
+                <br />
+                <span class="text-uppercase text-secondary">2018</span>
+                <div class="progress rounded">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+
+            </div>
+
+            <div class="service_button col-12 mt-5 nb-5 pt-5 pb-5 text-center">
+                <a href="#" class="text-uppercase text-white text-center m-auto">My Services</a>
+            </div>
+
+        </div> <!-- end row -->
+
+    </div>
+</section>
+
+<!--**************************************************-->
+<!-- Services -->
+<!--**************************************************-->
+
+<section id="section1" class="w-100">
+    <div id="Services" class="container mt-5 pt-5 pb-5">
+
+        <div class="row">
+
+            <div class="section_title col-12 mb-5">
+                <h2 class="text-uppercase font-weight-bold">WHAT I DO</h2>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="service_wrap bg-white p-4">
+                    <a href="#" class="d-block"><i class="fa fa-magic"></i></a>
+                    <h4 class="text-uppercase">BRANDING</h4>
+
+                    <p class="text-secondary">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum text.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="service_wrap bg-white p-4">
+                    <a href="#" class="d-block"><i class="fa fa-desktop"></i></a>
+                    <h4 class="text-uppercase">New Mobile  DESIGns</h4>
+
+                    <p class="text-secondary">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum text.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="service_wrap bg-white p-4">
+                    <a href="#" class="d-block"><i class="fa fa-code"></i></a>
+                    <h4 class="text-uppercase">Developing Android Versions</h4>
+
+                    <p class="text-secondary">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum text.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="service_wrap bg-white p-4">
+                    <a href="#" class="d-block"><i class="fa fa-paper-plane"></i></a>
+                    <h4 class="text-uppercase">Emails for taking feedback from our customers</h4>
+
+                    <p class="text-secondary">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum text.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="service_wrap bg-white p-4">
+                    <a href="#" class="d-block"><i class="fas fa-truck"></i></a>
+                    <h4 class="text-uppercase">Delivery</h4>
+
+                    <p class="text-secondary">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum text.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 p-3">
+                <div class="service_wrap bg-white p-4">
+                    <a href="#" class="d-block"><i class="fa fa-cloud"></i></a>
+                    <h4 class="text-uppercase">Online Transactions</h4>
+
+                    <p class="text-secondary">
+                        Many desktop publishing packages and web page editors now use Lorem Ipsum text.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service_button col-12 mt-5 nb-5 pt-5 pb-5 text-center">
+                <a href="#" class="text-uppercase text-white text-center m-auto">Check My Portfolio</a>
+            </div>
+
+        </div> <!-- end row -->
+
+    </div>
+</section>
+
+<!--**************************************************-->
+<!-- Portfolio -->
+<!--**************************************************-->
+
+<section id="section2" class="w-100 bg-white text-center pt-5 pb-5">
+    <div id="Portfolio" class="container row pt-5 pb-5 p-5 m-auto">
+
+        <div class="col-md-3 col-sm-3 col-xs-12 p-2">
+            <div class="border border-secondary text-center">
+                <i class="fa fa-magic fa-2x text-danger d-block m-auto"></i>
+                <span class="text-white">759</span>
+                <h4 class="text-uppercase text-danger">Customized Mobile Designs</h4>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-12 p-2">
+            <div class="border border-secondary text-center">
+                <i class="fa fa-desktop fa-2x text-danger d-block m-auto"></i>
+                <span class="text-white">1459</span>
+                <h4 class="text-uppercase text-danger">Number OF Websites Showing our Ads</h4>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-12 p-2">
+            <div class="border border-secondary text-center">
+                <i class="fab fa-search fa-2x text-danger d-block m-auto"></i>
+                <span class="text-white">359</span>
+                <h4 class="text-uppercase text-danger"> 5 Stars Rating!</h4>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-12 p-2">
+            <div class="border border-secondary text-center">
+                <i class="far fa-smile fa-2x text-danger d-block m-auto"></i>
+                <span class="text-white">3459</span>
+                <h4 class="text-uppercase text-danger">HAPPY CLIENTS</h4>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--**************************************************-->
+<!-- Mobile Phones -->
+<!--**************************************************-->
+
+<section id="section3" class="w-100 bg-white">
+    <div id="Projects" class="container mt-5 pt-5 pb-5">
+
+        <div class="row">
+
+            <div class="section_title col-12 mb-5">
+                <h2 class="text-uppercase font-weight-bold">My Portfolio</h2>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+
+            <div class="col-12">
+                <div class="container tabs text-center">
+                    <a href="#" class="text-dark p-3 ml-1 mr-1 border border-secondary d-inline-block">All</a>
+                    <a href="#" class="text-dark p-3 ml-1 mr-1 border border-secondary d-inline-block">Branding</a>
+                    <a href="#" class="text-dark p-3 ml-1 mr-1 border border-secondary d-inline-block">Website</a>
+                    <a href="#" class="text-dark p-3 ml-1 mr-1 border border-secondary d-inline-block">Illustration</a>
+                </div>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/1.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">Samsung Galaxy Grand Prime Plus - 5.0" - 4G Mobile Phone - Pink Gold</h4>
+                <p class="d-block text-secondary">
+                    Key Features
+                    5.0" Capacitive Touch Screen
+                    8 GB Storage, MicroSD up to 128 GB
+                    8 MP Back Camera, 5 MP Front Camera
+                    Quad-core 1.4 GHz CPU, 1.5 GB RAM
+                    Android OS, v6.0.1 (Marshmallow)
+                    Li-Ion 2600mAh battery, Dual SIM
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/2.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">iTel it2150 - 1.77" Dual SIM Mobile Phone - blue</h4>
+                <p class="d-block text-secondary">
+                    Key Features
+                    1.77" TFT Screen
+                    MicroSD, up to 32 GB
+                    1.3 MP Back Camera
+                    Wireless FM radio
+                    1000mAh Battery, Dual SIM
+                    Social Networks: Facebook, Palmchat
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/3.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">Samsung Galaxy J6 - 5.6-inch Dual SIM 32GB Mobile Phone </h4>
+                <p class="d-block text-secondary">
+                    Key Features
+                    5.6-inch Super AMOLED Capacitive Touch Screen
+                    32 GB Internal Storage, MicroSD up to 256 GB
+                    13 MP Back Camera, 8 MP Front Camera
+                    Octa-core 1.6 GHz CPU, 3 GB RAM
+                    Android OS, v8.0 (Oreo)
+                    Li-Ion 3000mAh Battery, Fingerprint Sensor
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/4.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">Xiaomi Redmi 6A - 5.45-inch 16GB - 4G Mobile Phone - Black</h4>
+                <p class="d-block text-secondary">
+                    5.45-inch IPS LCD Capacitive Touch Screen
+                    16 GB Storage, MicroSD up to 256 GB
+                    13 MP Back Camera, 5 MP Front Camera
+                    Quad-core 2.0 GHz CPU, 2 GB RAM
+                    Android OS, v8.1 (Oreo)
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/6.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">Tecno F1 - 5.0-inch 8GB Dual SIM Mobile Phone - Champagne</h4>
+                <p class="d-block text-secondary">
+                    5.0-inch Capacitive Touch Screen
+                    8 GB Storage, MicroSD up to 32 GB
+                    5MP Back Camera, 2MP Front Camera
+                    Quad-core 1.3 GHz CPU, 1GB RAM
+                    Li-ion 2000mAh battery, Dual SIM
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/5.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">
+                    Apple
+                    Apple iPhone 7 Plus - 128GB - Jet Black
+                </h4>
+                <p class="d-block text-secondary">
+                    Key Features
+                    5.5" IPS LCD Capacitive Touch Screen
+                    128 GB Internal Storage
+                    Dual 12 MP Back Camera, 7 MP Front Camera
+                    Quad-core 2.23 GHz CPU, 3 GB RAM
+                    OS: iOS 10
+                    Li-Po 2900 mAh Battery
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/4.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">Infinix X605 Note5 Stylus - 6.0-inch 64GB Mobile Phone - Bordeaux Red</h4>
+                <p class="d-block text-secondary">
+                    6.0-inch IPS FHD+ Infinity Screen
+                    64 GB Storage, MicroSD up to 128GB
+                    16MP Back Camera, 16MP Front Camera
+                    Octa-core 2.0 GHz CPU, 4GB RAM
+                    4000mAh Battery, Fingerprint Sensor
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/7.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">
+                    6.0-inch IPS FHD+ Infinity Screen
+                    64 GB Storage, MicroSD up to 128GB
+                    16MP Back Camera, 16MP Front Camera
+                    Octa-core 2.0 GHz CPU, 4GB RAM
+                    4000mAh Battery, Fingerprint Sensor
+                </h4>
+                <p class="d-block text-secondary">
+                    5.99-inch IPS LCD Capacitive Touch Screen
+                    64 GB Storage, MicroSD up to 256 GB
+                    12 MP + 5 MP Back Camera, 16 MP Front Camera
+                    Octa-core 2.0 GHz CPU, 4 GB RAM
+                    Android OS, v8.1 (Oreo)
+                </p>
+            </div>
+
+            <div class="Cards col-md-4 col-sm-6 col-xs-12 p-3 text-center">
+                <img class="img-fluid" src="~/Images/8.jpg" />
+                <a href="#" class="rounded-circle bg-dark p-2"><i class="fa fa-search text-white"></i></a>
+
+                <h4 class="d-block">Huawei Y3 2017 - 5.0" - 8GB - 3G Mobile Phone - Gold</h4>
+                <p class="d-block text-secondary">
+                    Key Features
+                    image
+                    5.0" IPS LCD Capacitive Touch Screen
+                    8 GB Storage, MicroSD up to 128 GB
+                    8 MP Back Camera, 2 MP Front Camera
+                    Quad-core 1.3 GHz CPU, 1 GB RAM
+                    Android OS, v6.0 (Marshmallow)
+                </p>
+            </div>
+
+            <div class="service_button col-12 mt-5 nb-5 pt-5 pb-5 text-center">
+                <a href="#" class="text-uppercase text-white text-center m-auto">Get in Touch</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!--**************************************************-->
+<!-- Testimonial -->
+<!--**************************************************-->
+
+<section id="section4" class="w-100 bg-white text-center pt-5 pb-5">
+    <div id="Testimonial" class=" w-75 pt-5 pb-5 p-5 m-auto">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner text-center">
+
+                <div class="carousel-item active">
+                    <div class="d-block w-100">
+                        <img class="border border-danger rounded-circle" src="~/Images/jonathan-doe.jpg" />
+                        <p class="text-white w-50 m-auto pt-4 pb-4">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et.”
+                        </p>
+
+                        <h3 class="text-danger">Jonathan Doe</h3>
+                        <span class="text-white">Android Developer</span>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-block w-100">
+                        <img class="border border-danger rounded-circle" src="~/Images/dovi-delrito.jpg" />
+                        <p class="text-white w-50 m-auto pt-4 pb-4">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et.”
+                        </p>
+
+                        <h3 class="text-danger">Dovi Delrito</h3>
+                        <span class="text-white">Professor in Cambridge University</span>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-block w-100">
+                        <img class="border border-danger rounded-circle" src="~/Images/vinayak-rajguru.jpg" />
+                        <p class="text-white w-50 m-auto pt-4 pb-4">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis odio ac eros sollicitudin consequat. Proin a tortor tortor. Nullam consequat dictum metus in vulputate. Pellentesque congue lectus justo, et.”
+                        </p>
+
+                        <h3 class="text-danger">Vinayak Rajguru</h3>
+                        <span class="text-white">Microsoft Vice President</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!--**************************************************-->
+<!-- Contact -->
+<!--**************************************************-->
+
+<section id="section5" class="w-100">
+    <div id="Contact" class="container mt-5 pt-5 pb-5">
+
+        <div class="row">
+
+            <div class="section_title col-12 mb-5">
+                <h2 class="text-uppercase font-weight-bold">Hire Me</h2>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+
+            <div class="col-md-6 col-sm-8 col-xs-12">
+                <h4 class="">CONTACT INFO</h4>
+                <p class="text-secondary">
+                    Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-sm-4 col-xs-12">
+                <form>
+                    <input class="d-block w-100 mb-4 p-2" type="text" placeholder="Enter Name" />
+                    <input class="d-block w-100 mb-4 p-2" type="email" placeholder="Enter Email" />
+                    <textarea class="d-block w-100 mb-4 p-2" placeholder="Enter Message"></textarea>
+                </form>
+
+                <div class="service_button col-12 mt-5 nb-5 pt-5 pb-5 text-left">
+                    <a href="#" class="text-uppercase text-white m-auto">Send Message</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- Sign up -->
+<!--**************************************************-->
+
+<section id="section5" class="w-100">
+    <div id="SignUp" class="container mt-5 pt-5 pb-5">
+
+        <div class="row">
+            <form action="action_page.php">
+                <div class="container">
+                    <h1>Register</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                    <hr>
+
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                    <button type="submit" class="registerbtn">Register</button>
+                </div>
+
+                <!--<div class="container signin">
+                    <p>Already have an account? <a href="#Signin">Sign in</a>.</p>
+                </div>-->
+            </form>
+        </div>
+
+    </div>
+
+    </div>
+</section>
+<!--  -->
+<!--sign in-->
+<!--<h2>Modal Login Form</h2>-->
+<section id="Signin">
+    <!--<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>-->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="~/images/avatarr.png" width="100px" height="250px" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-----------------Cart Section-->
+
+
+<!--**************************************************-->
+<!-- javascript -->
+<!--**************************************************-->
+<script src="~/js/jquery-3.3.1.slim.min.js"></script>
+<script src="~/js/popper.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (e) {
+        if (e.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+</script>
+

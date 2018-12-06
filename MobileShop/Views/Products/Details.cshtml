@@ -1,0 +1,48 @@
+﻿@model MobileShop.Models.Products
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Products</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Stock)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Stock)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model._category)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model._category.CatID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.oID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.oID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.PID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

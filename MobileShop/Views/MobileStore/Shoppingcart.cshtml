@@ -1,0 +1,189 @@
+﻿
+@{
+    ViewData["Title"] = "Shoppingcart";
+}
+@section Style
+    {
+    <link href="@Url.Content("https://fonts.googleapis.com/css?family=Poppins")" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/all.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/bootstrap.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/index_style.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/shoppingcart.css")" />
+    <link rel="stylesheet" href="@Url.Content("https://use.fontawesome.com/releases/v5.5.0/css/all.css")" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+
+    <script src="@Url.Content("~/js/jquery-3.3.1.min.js")"></script>
+    <script src="@Url.Content("~/js/Shoppingcart.js")"></script>
+
+}
+
+
+
+@*<h2>Shoppingcart</h2>*@
+
+
+@*<h1>Shopping Cart</h1>*@
+
+
+
+
+<div class="shopping-cart py-5 mx-0 px-0" style="background-color:black;color:crimson;padding:30px auto;width:100%;font-size:12px">
+
+    <div class="column-labels">
+        <label class="product-image">Image</label>
+        <label class="product-details">Product</label>
+        <label class="product-price">Price</label>
+        <label class="product-quantity">Quantity</label>
+        <label class="product-removal">Remove</label>
+        <label class="product-line-price">Total</label>
+    </div>
+
+    <div class="product w-75 mx-auto">
+        <div class="product-image">
+            <img src="~/images/1.jpg">
+        </div>
+        <div class="product-details">
+            <div class="product-title">Apple iPhone 6 - 32GB - Space Gray</div>
+            <p class="product-description">iPhone 6 is not simply bigger — it’s better in every way. Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly meets the new Retina HD display. It’s one continuous form where hardware and software function in perfect unison, creating a new generation of iPhone that’s better by any measure.</p>
+        </div>
+        <div class="product-price">12552$</div>
+        <div class="product-quantity">
+            <input type="number" value="2" min="1">
+        </div>
+        <div class="product-removal">
+            <button class="remove-product">
+                Remove
+            </button>
+        </div>
+        <div class="product-line-price">1000$</div>
+    </div>
+
+    <div class="product w-75 mx-auto">
+        <div class="product-image">
+            <img src="~/images/3.jpg">
+        </div>
+        <div class="product-details">
+            <div class="product-title">Xiaomi Redmi 6 - 5.45-inch 64GB - 4G Mobile Phone - Blue</div>
+            <p class="product-description">
+                Redmi 6 has a 5.45-inch 18:9 HD+ Full Screen Display with a screen-to-body ratio of 80.5%. Its polycarbonate back panel has a brushed metal surface, and is symmetrically curved and gently tapered toward the edges so it feels great in the hand.
+
+            </p>
+        </div>
+        <div class="product-price">6500$</div>
+        <div class="product-quantity">
+            <input type="number" value="1" min="1">
+        </div>
+        <div class="product-removal">
+            <button class="remove-product">
+                Remove
+            </button>
+        </div>
+        <div class="product-line-price">850$</div>
+    </div>
+
+    <div class="totals w-75 mx-auto">
+        <div class="totals-item">
+            <label>Subtotal</label>
+            <div class="totals-value" id="cart-subtotal">71.97</div>
+        </div>
+        <div class="totals-item">
+            <label>Tax (5%)</label>
+            <div class="totals-value" id="cart-tax">3.60</div>
+        </div>
+        <div class="totals-item">
+            <label>Shipping</label>
+            <div class="totals-value" id="cart-shipping">15.00</div>
+        </div>
+        <div class="totals-item totals-item-total">
+            <label>Grand Total</label>
+            <div class="totals-value" id="cart-total">90.57</div>
+        </div>
+    </div>
+
+    <button class="checkout w-25 mx-auto">Checkout</button>
+
+</div>
+<!--JAVA SCRIPT-->
+@*<script>
+        /* Set rates + misc */
+        var taxRate = 0.05;
+        var shippingRate = 15.00;
+        var fadeTime = 300;
+
+
+        /* Assign actions */
+        $('.product-quantity input').change(function () {
+            updateQuantity(this);
+        });
+
+        $('.product-removal button').click(function () {
+            removeItem(this);
+        });
+
+
+        /* Recalculate cart */
+        function recalculateCart() {
+            var subtotal = 0;
+
+            /* Sum up row totals */
+            $('.product').each(function () {
+                subtotal += parseFloat($(this).children('.product-line-price').text());
+            });
+
+            /* Calculate totals */
+            var tax = subtotal * taxRate;
+            var shipping = (subtotal > 0 ? shippingRate : 0);
+            var total = subtotal + tax + shipping;
+
+            /* Update totals display */
+            $('.totals-value').fadeOut(fadeTime, function () {
+                $('#cart-subtotal').html(subtotal.toFixed(2));
+                $('#cart-tax').html(tax.toFixed(2));
+                $('#cart-shipping').html(shipping.toFixed(2));
+                $('#cart-total').html(total.toFixed(2));
+                if (total == 0) {
+                    $('.checkout').fadeOut(fadeTime);
+                } else {
+                    $('.checkout').fadeIn(fadeTime);
+                }
+                $('.totals-value').fadeIn(fadeTime);
+            });
+        }
+
+
+        /* Update quantity */
+        function updateQuantity(quantityInput) {
+            /* Calculate line price */
+            var productRow = $(quantityInput).parent().parent();
+            var price = parseFloat(productRow.children('.product-price').text());
+            var quantity = $(quantityInput).val();
+            var linePrice = price * quantity;
+
+            /* Update line price display and recalc cart totals */
+            productRow.children('.product-line-price').each(function () {
+                $(this).fadeOut(fadeTime, function () {
+                    $(this).text(linePrice.toFixed(2));
+                    recalculateCart();
+                    $(this).fadeIn(fadeTime);
+                });
+            });
+        }
+
+
+        /* Remove item from cart */
+        function removeItem(removeButton) {
+            /* Remove row from DOM and recalc cart total */
+            var productRow = $(removeButton).parent().parent();
+            productRow.slideUp(fadeTime, function () {
+                productRow.remove();
+                recalculateCart();
+            });
+        }
+    </script>*@

@@ -1,0 +1,120 @@
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csprojAssemblyReference.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csproj.CoreCompileInputs.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorAssemblyInfo.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorAssemblyInfo.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.AssemblyInfoInputs.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.AssemblyInfo.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.TagHelpers.input.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.TagHelpers.output.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorCoreGenerate.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorTargetAssemblyInfo.cache
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorTargetAssemblyInfo.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.dll
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.pdb
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.deps.json
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.runtimeconfig.json
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.runtimeconfig.dev.json
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.dll
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.pdb
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.Views.dll
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.Views.pdb
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.Views.pdb
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csproj.CopyComplete
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\index.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\cart.g.cshtml.cs
+D:\Study\Andrew\Andrew All Bis levels\Bis lev4 semester 1\Adv Ecommerce\adv. lab with ahmed aymn\adv ecommerce lab\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\Shoppingcart.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.deps.json
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.runtimeconfig.json
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.runtimeconfig.dev.json
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.dll
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.pdb
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.Views.dll
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.Views.pdb
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csprojAssemblyReference.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csproj.CoreCompileInputs.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorAssemblyInfo.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorAssemblyInfo.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.AssemblyInfoInputs.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.AssemblyInfo.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.TagHelpers.input.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.TagHelpers.output.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorCoreGenerate.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\cart.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\index.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\Shoppingcart.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorTargetAssemblyInfo.cache
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorTargetAssemblyInfo.cs
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.Views.pdb
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.dll
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.pdb
+F:\G 166g\task 4 adv ecommerce\TASK 4 advecom\task 4 adv ecommerce\MobileShop\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csproj.CopyComplete
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.deps.json
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.runtimeconfig.json
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.runtimeconfig.dev.json
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.dll
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.pdb
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.Views.dll
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\bin\Debug\netcoreapp2.1\MobileShop.Views.pdb
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csprojAssemblyReference.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csproj.CoreCompileInputs.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorAssemblyInfo.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorAssemblyInfo.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.AssemblyInfoInputs.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.AssemblyInfo.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.TagHelpers.input.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.TagHelpers.output.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorCoreGenerate.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\cart.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\index.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\MobileStore\Shoppingcart.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Products\Create.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Products\Delete.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Products\Details.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Products\Edit.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorTargetAssemblyInfo.cache
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.RazorTargetAssemblyInfo.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.Views.pdb
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.dll
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.pdb
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\MobileShop.csproj.CopyComplete
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Create.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Delete.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Details.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Edit.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Customers\Index.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Create.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Delete.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Details.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Edit.g.cshtml.cs
+C:\Users\bolaa\Downloads\Compressed\asp.net core\andrew\Task4-Adv-master\MobileShop\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Index.g.cshtml.cs
